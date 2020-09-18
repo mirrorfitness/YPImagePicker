@@ -12,7 +12,6 @@ let package = Package(
             .package(url: "https://github.com/HHK1/PryntTrimmerView.git", from: "4.0.0")
         ],
         targets: [
-            .target(name: "YPImagePicker",
-                    path: "YPImagePicker")
+            .target(name: "YPImagePicker")
         ]
 )
