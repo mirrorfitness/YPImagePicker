@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D131BE2251558FF0076459C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D131BE1251558FF0076459C /* AVKit.framework */; };
+		3D131BE4251559040076459C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D131BE3251559040076459C /* AVFoundation.framework */; };
 		99428A0A1E7BE02400B765A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99428A091E7BE02400B765A9 /* AppDelegate.swift */; };
 		99428A0C1E7BE02400B765A9 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99428A0B1E7BE02400B765A9 /* ExampleViewController.swift */; };
 		99428A111E7BE02400B765A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99428A101E7BE02400B765A9 /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 
 /* Begin PBXFileReference section */
 		3B0E1B9D207069630048E95B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D131BE1251558FF0076459C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3D131BE3251559040076459C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5F01F9DE20DCC5EA007432E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		71524A8C206FD954002F3162 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		991C0E5520567E1300764131 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 			files = (
 				997127C1208F45B30089272B /* PryntTrimmerView.framework in Frameworks */,
 				997A4CD21F4C3DC0009C3703 /* Stevia.framework in Frameworks */,
+				3D131BE4251559040076459C /* AVFoundation.framework in Frameworks */,
+				3D131BE2251558FF0076459C /* AVKit.framework in Frameworks */,
 				99428A271E7BE1D600B765A9 /* YPImagePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +147,8 @@
 		99428A231E7BE17800B765A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D131BE3251559040076459C /* AVFoundation.framework */,
+				3D131BE1251558FF0076459C /* AVKit.framework */,
 				997127C0208F45B30089272B /* PryntTrimmerView.framework */,
 				997A4CD11F4C3DC0009C3703 /* Stevia.framework */,
 			);
@@ -449,7 +457,7 @@
 					"$(PROJECT_DIR)/../Resources\"",
 				);
 				INFOPLIST_FILE = YPImagePickerExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.YPImagePickerExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,7 +480,7 @@
 					"$(PROJECT_DIR)/../Resources\"",
 				);
 				INFOPLIST_FILE = YPImagePickerExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.YPImagePickerExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
