@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D52FDEF25156D3B00DF086B /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDE525156D3B00DF086B /* AssetVideoScrollView.swift */; };
+		3D52FDF025156D3B00DF086B /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDE625156D3B00DF086B /* AVAssetTimeSelector.swift */; };
+		3D52FDF125156D3B00DF086B /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDE725156D3B00DF086B /* ThumbSelectorView.swift */; };
+		3D52FDF225156D3B00DF086B /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDE925156D3B00DF086B /* VideoCropView.swift */; };
+		3D52FDF325156D3B00DF086B /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDEA25156D3B00DF086B /* VideoScrollView.swift */; };
+		3D52FDF425156D3B00DF086B /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDEB25156D3B00DF086B /* CropMaskView.swift */; };
+		3D52FDF525156D3B00DF086B /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDED25156D3B00DF086B /* HandlerView.swift */; };
+		3D52FDF625156D3B00DF086B /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52FDEE25156D3B00DF086B /* PryntTrimmerView.swift */; };
 		3DB4D08F251569CB00DA8E5B /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07C251569CA00DA8E5B /* Stevia+LayoutAnchors.swift */; };
 		3DB4D090251569CB00DA8E5B /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07D251569CA00DA8E5B /* Stevia+Percentage.swift */; };
 		3DB4D091251569CB00DA8E5B /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07E251569CB00DA8E5B /* Stevia+Operators.swift */; };
@@ -26,7 +34,6 @@
 		3DB4D09F251569CB00DA8E5B /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08C251569CB00DA8E5B /* Stevia+Fill.swift */; };
 		3DB4D0A0251569CB00DA8E5B /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08D251569CB00DA8E5B /* Stevia+DoubleDash.swift */; };
 		3DB4D0A1251569CB00DA8E5B /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08E251569CB00DA8E5B /* Stevia+Position.swift */; };
-		3DDD233925152FE000C6B414 /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = 3DDD233825152FE000C6B414 /* PryntTrimmerView */; };
 		3DDD233C25152FFE00C6B414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDD233B25152FFE00C6B414 /* UIKit.framework */; };
 		3DDD233E2515300500C6B414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDD233D2515300500C6B414 /* Foundation.framework */; };
 		3DDD23422515311200C6B414 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDD23412515311200C6B414 /* AVFoundation.framework */; };
@@ -122,6 +129,14 @@
 		2577138123B1E09300BB9C86 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
 		2577138223B1E09E00BB9C86 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
 		3B0E1B962070669B0048E95B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
+		3D52FDE525156D3B00DF086B /* AssetVideoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetVideoScrollView.swift; sourceTree = "<group>"; };
+		3D52FDE625156D3B00DF086B /* AVAssetTimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAssetTimeSelector.swift; sourceTree = "<group>"; };
+		3D52FDE725156D3B00DF086B /* ThumbSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbSelectorView.swift; sourceTree = "<group>"; };
+		3D52FDE925156D3B00DF086B /* VideoCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCropView.swift; sourceTree = "<group>"; };
+		3D52FDEA25156D3B00DF086B /* VideoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScrollView.swift; sourceTree = "<group>"; };
+		3D52FDEB25156D3B00DF086B /* CropMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropMaskView.swift; sourceTree = "<group>"; };
+		3D52FDED25156D3B00DF086B /* HandlerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlerView.swift; sourceTree = "<group>"; };
+		3D52FDEE25156D3B00DF086B /* PryntTrimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PryntTrimmerView.swift; sourceTree = "<group>"; };
 		3DB4D07C251569CA00DA8E5B /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
 		3DB4D07D251569CA00DA8E5B /* Stevia+Percentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Percentage.swift"; sourceTree = "<group>"; };
 		3DB4D07E251569CB00DA8E5B /* Stevia+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Operators.swift"; sourceTree = "<group>"; };
@@ -254,7 +269,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDD233925152FE000C6B414 /* PryntTrimmerView in Frameworks */,
 				3DDD233C25152FFE00C6B414 /* UIKit.framework in Frameworks */,
 				3DDD23422515311200C6B414 /* AVFoundation.framework in Frameworks */,
 				3DDD233E2515300500C6B414 /* Foundation.framework in Frameworks */,
@@ -264,6 +278,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D52FDE325156D3B00DF086B /* PryntTrimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				3D52FDE425156D3B00DF086B /* Parents */,
+				3D52FDE725156D3B00DF086B /* ThumbSelectorView.swift */,
+				3D52FDE825156D3B00DF086B /* Cropper */,
+				3D52FDEC25156D3B00DF086B /* Trimmer */,
+			);
+			path = PryntTrimmerView;
+			sourceTree = "<group>";
+		};
+		3D52FDE425156D3B00DF086B /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				3D52FDE525156D3B00DF086B /* AssetVideoScrollView.swift */,
+				3D52FDE625156D3B00DF086B /* AVAssetTimeSelector.swift */,
+			);
+			path = Parents;
+			sourceTree = "<group>";
+		};
+		3D52FDE825156D3B00DF086B /* Cropper */ = {
+			isa = PBXGroup;
+			children = (
+				3D52FDE925156D3B00DF086B /* VideoCropView.swift */,
+				3D52FDEA25156D3B00DF086B /* VideoScrollView.swift */,
+				3D52FDEB25156D3B00DF086B /* CropMaskView.swift */,
+			);
+			path = Cropper;
+			sourceTree = "<group>";
+		};
+		3D52FDEC25156D3B00DF086B /* Trimmer */ = {
+			isa = PBXGroup;
+			children = (
+				3D52FDED25156D3B00DF086B /* HandlerView.swift */,
+				3D52FDEE25156D3B00DF086B /* PryntTrimmerView.swift */,
+			);
+			path = Trimmer;
+			sourceTree = "<group>";
+		};
 		3DB4D051251568FE00DA8E5B /* Stevia */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +439,7 @@
 		99C6D69D1F1FB5C100711DB2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3D52FDE325156D3B00DF086B /* PryntTrimmerView */,
 				3DB4D051251568FE00DA8E5B /* Stevia */,
 				99C6D6B81F1FB5C100711DB2 /* YPImagePicker.swift */,
 				99C6D6B51F1FB5C100711DB2 /* YPPickerVC.swift */,
@@ -574,7 +628,6 @@
 			);
 			name = YPImagePicker;
 			packageProductDependencies = (
-				3DDD233825152FE000C6B414 /* PryntTrimmerView */,
 			);
 			productName = Fusuma;
 			productReference = 52412A931CA6114A0073C4BE /* YPImagePicker.framework */;
@@ -623,7 +676,6 @@
 			);
 			mainGroup = 52412A891CA6114A0073C4BE;
 			packageReferences = (
-				3DDD233725152FE000C6B414 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */,
 			);
 			productRefGroup = 52412A941CA6114A0073C4BE /* Products */;
 			projectDirPath = "";
@@ -678,6 +730,7 @@
 				990FD28F201A49D3002A39A1 /* YPPermissionCheckable.swift in Sources */,
 				EB473E23208E1DB000D16105 /* AVPlayer+Extensions.swift in Sources */,
 				99278DA820512BD90059532E /* PreiOS10PhotoCapture.swift in Sources */,
+				3D52FDF125156D3B00DF086B /* ThumbSelectorView.swift in Sources */,
 				EBD2B641207B7D7400E711C2 /* YPMediaItem.swift in Sources */,
 				99C6D6C71F1FB5C100711DB2 /* YPPhotoFiltersVC.swift in Sources */,
 				99D1DC2B1F9788930047F0E0 /* YPImagePickerConfiguration.swift in Sources */,
@@ -704,17 +757,20 @@
 				99019E4C2018CCD6007325C2 /* YPBottomPagerView.swift in Sources */,
 				99C6D6BB1F1FB5C100711DB2 /* YPLibraryVC.swift in Sources */,
 				99C6D6CB1F1FB5C100711DB2 /* YPHelper.swift in Sources */,
+				3D52FDF525156D3B00DF086B /* HandlerView.swift in Sources */,
 				EB5B07C4209146F00099C1FA /* UIButton+Extensions.swift in Sources */,
 				3DB4D095251569CB00DA8E5B /* Stevia+Center.swift in Sources */,
 				EB65C4B5209321420037858B /* String+Extensions.swift in Sources */,
 				99019E532018CE19007325C2 /* YPPickerScreen.swift in Sources */,
 				99CF6D1F201B6B9E00487F77 /* CGRect+Extensions.swift in Sources */,
+				3D52FDF625156D3B00DF086B /* PryntTrimmerView.swift in Sources */,
 				99CF6D1D201B6ABA00487F77 /* IndexSet+Extensions.swift in Sources */,
 				EB59F452208766B800811B7B /* YPVideoFiltersVC.swift in Sources */,
 				EB473E1D208E1B9E00D16105 /* AVAsset+Extensions.swift in Sources */,
 				9911FA24203C3A31000E9B06 /* UIImage+Extensions.swift in Sources */,
 				99278DAC20512C330059532E /* YPPhotoCapture.swift in Sources */,
 				3DB4D092251569CB00DA8E5B /* Stevia+Size.swift in Sources */,
+				3D52FDF025156D3B00DF086B /* AVAssetTimeSelector.swift in Sources */,
 				EB584BFF207B883A00265B38 /* YPSelectionsGalleryCell.swift in Sources */,
 				99278DB02051816F0059532E /* YPPhotoCaptureDefaults.swift in Sources */,
 				99C6D6CE1F1FB5C100711DB2 /* YPPhotoSaver.swift in Sources */,
@@ -731,6 +787,7 @@
 				EB473E1B208E1B7400D16105 /* NSFileManager+Extensions.swift in Sources */,
 				99A0529A1F20A19B005600B3 /* YPAlbumVC.swift in Sources */,
 				99A0529D1F20B45D005600B3 /* YPAlbumView.swift in Sources */,
+				3D52FDF425156D3B00DF086B /* CropMaskView.swift in Sources */,
 				EB473E21208E1BF400D16105 /* YPTrimError.swift in Sources */,
 				3DB4D0A1251569CB00DA8E5B /* Stevia+Position.swift in Sources */,
 				EB584C03207B990200265B38 /* AVFoundation+Extensions.swift in Sources */,
@@ -741,6 +798,7 @@
 				EB473E25208E1DCA00D16105 /* AVCaptureSession+Extensions.swift in Sources */,
 				EBB0FF7A20877A7500C84E25 /* YPVideoView.swift in Sources */,
 				3DB4D09F251569CB00DA8E5B /* Stevia+Fill.swift in Sources */,
+				3D52FDF325156D3B00DF086B /* VideoScrollView.swift in Sources */,
 				EB473E19208E198E00D16105 /* AVFileType+Extensions.swift in Sources */,
 				EBD66105208104EA00EA276E /* YPIcons.swift in Sources */,
 				EB473E1F208E1BCC00D16105 /* AVMutableComposition+Extensions.swift in Sources */,
@@ -748,6 +806,7 @@
 				99A0529F1F20B480005600B3 /* YPAlbumCell.swift in Sources */,
 				99C6D6BC1F1FB5C100711DB2 /* YPLibraryView.swift in Sources */,
 				3DB4D0A0251569CB00DA8E5B /* Stevia+DoubleDash.swift in Sources */,
+				3D52FDEF25156D3B00DF086B /* AssetVideoScrollView.swift in Sources */,
 				99A3C91220319231008D7E23 /* YPCropVC.swift in Sources */,
 				EB584BFB207B870F00265B38 /* YPSelectionsGalleryVC.swift in Sources */,
 				99019E512018CDED007325C2 /* YPImageSize.swift in Sources */,
@@ -756,6 +815,7 @@
 				99C6D6CF1F1FB5C100711DB2 /* YPPickerVC.swift in Sources */,
 				EB94F28E208E3A140049F523 /* YPLoaders.swift in Sources */,
 				99CF6D29201B900400487F77 /* LibraryMediaManager.swift in Sources */,
+				3D52FDF225156D3B00DF086B /* VideoCropView.swift in Sources */,
 				99CD962720D179FD009F5084 /* YPSelectionsGalleryView.swift in Sources */,
 				99C6D6BE1F1FB5C100711DB2 /* YPLibraryViewCell.swift in Sources */,
 				99C6D6C41F1FB5C100711DB2 /* YPFilter.swift in Sources */,
@@ -915,8 +975,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -945,11 +1004,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 4.2.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yummypets.YPImagePicker;
@@ -982,11 +1037,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 4.2.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yummypets.YPImagePicker;
@@ -1020,25 +1071,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3DDD233725152FE000C6B414 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/HHK1/PryntTrimmerView.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3DDD233825152FE000C6B414 /* PryntTrimmerView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3DDD233725152FE000C6B414 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */;
-			productName = PryntTrimmerView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52412A8A1CA6114A0073C4BE /* Project object */;
 }

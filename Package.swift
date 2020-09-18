@@ -8,9 +8,6 @@ let package = Package(
         products: [
             .library(name: "YPImagePicker", targets: ["YPImagePicker"])
         ],
-        dependencies: [
-            .package(url: "https://github.com/HHK1/PryntTrimmerView.git", from: "4.0.0")
-        ],
         targets: [
             .target(name: "YPImagePicker",
                     path: "Source")
