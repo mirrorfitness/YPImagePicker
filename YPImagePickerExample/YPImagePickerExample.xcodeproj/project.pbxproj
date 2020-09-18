@@ -16,10 +16,8 @@
 		99428A271E7BE1D600B765A9 /* YPImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99428A201E7BE04000B765A9 /* YPImagePicker.framework */; };
 		99428A281E7BE1D600B765A9 /* YPImagePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99428A201E7BE04000B765A9 /* YPImagePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		997127C1208F45B30089272B /* PryntTrimmerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997127C0208F45B30089272B /* PryntTrimmerView.framework */; };
-		997A4CD21F4C3DC0009C3703 /* Stevia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997A4CD11F4C3DC0009C3703 /* Stevia.framework */; };
 		99A052A61F20DF21005600B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99A052A81F20DF21005600B3 /* Localizable.strings */; };
 		99CD962120D173EB009F5084 /* PryntTrimmerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 997127C0208F45B30089272B /* PryntTrimmerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99CD962220D173FE009F5084 /* Stevia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 997A4CD11F4C3DC0009C3703 /* Stevia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +51,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				99CD962220D173FE009F5084 /* Stevia.framework in Embed Frameworks */,
 				99CD962120D173EB009F5084 /* PryntTrimmerView.framework in Embed Frameworks */,
 				99428A281E7BE1D600B765A9 /* YPImagePicker.framework in Embed Frameworks */,
 			);
@@ -77,7 +74,6 @@
 		99428A151E7BE02400B765A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99428A1B1E7BE04000B765A9 /* YPImagePicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YPImagePicker.xcodeproj; path = ../YPImagePicker.xcodeproj; sourceTree = "<group>"; };
 		997127C0208F45B30089272B /* PryntTrimmerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PryntTrimmerView.framework; path = ../Carthage/Build/iOS/PryntTrimmerView.framework; sourceTree = "<group>"; };
-		997A4CD11F4C3DC0009C3703 /* Stevia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stevia.framework; path = ../Carthage/Build/iOS/Stevia.framework; sourceTree = "<group>"; };
 		998D452620AC8DFA007F8699 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		99A052A91F20DF24005600B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		99A052AA1F20DF39005600B3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -95,7 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				997127C1208F45B30089272B /* PryntTrimmerView.framework in Frameworks */,
-				997A4CD21F4C3DC0009C3703 /* Stevia.framework in Frameworks */,
 				3D131BE4251559040076459C /* AVFoundation.framework in Frameworks */,
 				3D131BE2251558FF0076459C /* AVKit.framework in Frameworks */,
 				99428A271E7BE1D600B765A9 /* YPImagePicker.framework in Frameworks */,
@@ -150,7 +145,6 @@
 				3D131BE3251559040076459C /* AVFoundation.framework */,
 				3D131BE1251558FF0076459C /* AVKit.framework */,
 				997127C0208F45B30089272B /* PryntTrimmerView.framework */,
-				997A4CD11F4C3DC0009C3703 /* Stevia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

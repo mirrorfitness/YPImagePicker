@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DDD233525152FBC00C6B414 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 3DDD233425152FBC00C6B414 /* Stevia */; };
+		3DB4D08F251569CB00DA8E5B /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07C251569CA00DA8E5B /* Stevia+LayoutAnchors.swift */; };
+		3DB4D090251569CB00DA8E5B /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07D251569CA00DA8E5B /* Stevia+Percentage.swift */; };
+		3DB4D091251569CB00DA8E5B /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07E251569CB00DA8E5B /* Stevia+Operators.swift */; };
+		3DB4D092251569CB00DA8E5B /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D07F251569CB00DA8E5B /* Stevia+Size.swift */; };
+		3DB4D093251569CB00DA8E5B /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D080251569CB00DA8E5B /* Stevia+Alignment.swift */; };
+		3DB4D094251569CB00DA8E5B /* Stevia+Baselines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D081251569CB00DA8E5B /* Stevia+Baselines.swift */; };
+		3DB4D095251569CB00DA8E5B /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D082251569CB00DA8E5B /* Stevia+Center.swift */; };
+		3DB4D096251569CB00DA8E5B /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D083251569CB00DA8E5B /* Stevia+Notifications.swift */; };
+		3DB4D097251569CB00DA8E5B /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D084251569CB00DA8E5B /* Stevia+Style.swift */; };
+		3DB4D098251569CB00DA8E5B /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D085251569CB00DA8E5B /* Stevia+Constraints.swift */; };
+		3DB4D099251569CB00DA8E5B /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D086251569CB00DA8E5B /* Stevia+Stacks.swift */; };
+		3DB4D09A251569CB00DA8E5B /* Stevia+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D087251569CB00DA8E5B /* Stevia+Equation.swift */; };
+		3DB4D09B251569CB00DA8E5B /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D088251569CB00DA8E5B /* Stevia+GetConstraint.swift */; };
+		3DB4D09C251569CB00DA8E5B /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D089251569CB00DA8E5B /* Stevia+Hierarchy.swift */; };
+		3DB4D09D251569CB00DA8E5B /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08A251569CB00DA8E5B /* Stevia+FlexibleMargin.swift */; };
+		3DB4D09E251569CB00DA8E5B /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08B251569CB00DA8E5B /* Stevia+Content.swift */; };
+		3DB4D09F251569CB00DA8E5B /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08C251569CB00DA8E5B /* Stevia+Fill.swift */; };
+		3DB4D0A0251569CB00DA8E5B /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08D251569CB00DA8E5B /* Stevia+DoubleDash.swift */; };
+		3DB4D0A1251569CB00DA8E5B /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D08E251569CB00DA8E5B /* Stevia+Position.swift */; };
 		3DDD233925152FE000C6B414 /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = 3DDD233825152FE000C6B414 /* PryntTrimmerView */; };
 		3DDD233C25152FFE00C6B414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDD233B25152FFE00C6B414 /* UIKit.framework */; };
 		3DDD233E2515300500C6B414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDD233D2515300500C6B414 /* Foundation.framework */; };
@@ -104,6 +122,25 @@
 		2577138123B1E09300BB9C86 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
 		2577138223B1E09E00BB9C86 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
 		3B0E1B962070669B0048E95B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
+		3DB4D07C251569CA00DA8E5B /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
+		3DB4D07D251569CA00DA8E5B /* Stevia+Percentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Percentage.swift"; sourceTree = "<group>"; };
+		3DB4D07E251569CB00DA8E5B /* Stevia+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Operators.swift"; sourceTree = "<group>"; };
+		3DB4D07F251569CB00DA8E5B /* Stevia+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Size.swift"; sourceTree = "<group>"; };
+		3DB4D080251569CB00DA8E5B /* Stevia+Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Alignment.swift"; sourceTree = "<group>"; };
+		3DB4D081251569CB00DA8E5B /* Stevia+Baselines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Baselines.swift"; sourceTree = "<group>"; };
+		3DB4D082251569CB00DA8E5B /* Stevia+Center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Center.swift"; sourceTree = "<group>"; };
+		3DB4D083251569CB00DA8E5B /* Stevia+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Notifications.swift"; sourceTree = "<group>"; };
+		3DB4D084251569CB00DA8E5B /* Stevia+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Style.swift"; sourceTree = "<group>"; };
+		3DB4D085251569CB00DA8E5B /* Stevia+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Constraints.swift"; sourceTree = "<group>"; };
+		3DB4D086251569CB00DA8E5B /* Stevia+Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Stacks.swift"; sourceTree = "<group>"; };
+		3DB4D087251569CB00DA8E5B /* Stevia+Equation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Equation.swift"; sourceTree = "<group>"; };
+		3DB4D088251569CB00DA8E5B /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
+		3DB4D089251569CB00DA8E5B /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
+		3DB4D08A251569CB00DA8E5B /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
+		3DB4D08B251569CB00DA8E5B /* Stevia+Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Content.swift"; sourceTree = "<group>"; };
+		3DB4D08C251569CB00DA8E5B /* Stevia+Fill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Fill.swift"; sourceTree = "<group>"; };
+		3DB4D08D251569CB00DA8E5B /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
+		3DB4D08E251569CB00DA8E5B /* Stevia+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Position.swift"; sourceTree = "<group>"; };
 		3DD36096251529EB001BEB8E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		3DDD233B25152FFE00C6B414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DDD233D2515300500C6B414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -220,7 +257,6 @@
 				3DDD233925152FE000C6B414 /* PryntTrimmerView in Frameworks */,
 				3DDD233C25152FFE00C6B414 /* UIKit.framework in Frameworks */,
 				3DDD23422515311200C6B414 /* AVFoundation.framework in Frameworks */,
-				3DDD233525152FBC00C6B414 /* Stevia in Frameworks */,
 				3DDD233E2515300500C6B414 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +264,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB4D051251568FE00DA8E5B /* Stevia */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4D080251569CB00DA8E5B /* Stevia+Alignment.swift */,
+				3DB4D081251569CB00DA8E5B /* Stevia+Baselines.swift */,
+				3DB4D082251569CB00DA8E5B /* Stevia+Center.swift */,
+				3DB4D085251569CB00DA8E5B /* Stevia+Constraints.swift */,
+				3DB4D08B251569CB00DA8E5B /* Stevia+Content.swift */,
+				3DB4D08D251569CB00DA8E5B /* Stevia+DoubleDash.swift */,
+				3DB4D087251569CB00DA8E5B /* Stevia+Equation.swift */,
+				3DB4D08C251569CB00DA8E5B /* Stevia+Fill.swift */,
+				3DB4D08A251569CB00DA8E5B /* Stevia+FlexibleMargin.swift */,
+				3DB4D088251569CB00DA8E5B /* Stevia+GetConstraint.swift */,
+				3DB4D089251569CB00DA8E5B /* Stevia+Hierarchy.swift */,
+				3DB4D07C251569CA00DA8E5B /* Stevia+LayoutAnchors.swift */,
+				3DB4D083251569CB00DA8E5B /* Stevia+Notifications.swift */,
+				3DB4D07E251569CB00DA8E5B /* Stevia+Operators.swift */,
+				3DB4D07D251569CA00DA8E5B /* Stevia+Percentage.swift */,
+				3DB4D08E251569CB00DA8E5B /* Stevia+Position.swift */,
+				3DB4D07F251569CB00DA8E5B /* Stevia+Size.swift */,
+				3DB4D086251569CB00DA8E5B /* Stevia+Stacks.swift */,
+				3DB4D084251569CB00DA8E5B /* Stevia+Style.swift */,
+			);
+			path = Stevia;
+			sourceTree = "<group>";
+		};
 		52412A891CA6114A0073C4BE = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +386,7 @@
 		99C6D69D1F1FB5C100711DB2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3DB4D051251568FE00DA8E5B /* Stevia */,
 				99C6D6B81F1FB5C100711DB2 /* YPImagePicker.swift */,
 				99C6D6B51F1FB5C100711DB2 /* YPPickerVC.swift */,
 				99019E4F2018CDDF007325C2 /* Configuration */,
@@ -511,7 +574,6 @@
 			);
 			name = YPImagePicker;
 			packageProductDependencies = (
-				3DDD233425152FBC00C6B414 /* Stevia */,
 				3DDD233825152FE000C6B414 /* PryntTrimmerView */,
 			);
 			productName = Fusuma;
@@ -561,7 +623,6 @@
 			);
 			mainGroup = 52412A891CA6114A0073C4BE;
 			packageReferences = (
-				3DDD233325152FBC00C6B414 /* XCRemoteSwiftPackageReference "Stevia" */,
 				3DDD233725152FE000C6B414 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */,
 			);
 			productRefGroup = 52412A941CA6114A0073C4BE /* Products */;
@@ -610,6 +671,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C6D6C81F1FB5C100711DB2 /* YPFiltersView.swift in Sources */,
+				3DB4D09C251569CB00DA8E5B /* Stevia+Hierarchy.swift in Sources */,
+				3DB4D09B251569CB00DA8E5B /* Stevia+GetConstraint.swift in Sources */,
 				EB05F6E7214A7191002040AA /* YPVideoProcessor.swift in Sources */,
 				990FD293201B3D69002A39A1 /* YPLibraryViewDelegate.swift in Sources */,
 				990FD28F201A49D3002A39A1 /* YPPermissionCheckable.swift in Sources */,
@@ -618,17 +681,23 @@
 				EBD2B641207B7D7400E711C2 /* YPMediaItem.swift in Sources */,
 				99C6D6C71F1FB5C100711DB2 /* YPPhotoFiltersVC.swift in Sources */,
 				99D1DC2B1F9788930047F0E0 /* YPImagePickerConfiguration.swift in Sources */,
+				3DB4D09A251569CB00DA8E5B /* Stevia+Equation.swift in Sources */,
 				99B8C4C3208F8EE900127119 /* YPLoadingView.swift in Sources */,
 				99278DAA20512BFB0059532E /* PostiOS10PhotoCapture.swift in Sources */,
+				3DB4D090251569CB00DA8E5B /* Stevia+Percentage.swift in Sources */,
 				990FD297201B4A5F002A39A1 /* PHCachingImageManager+Extensions.swift in Sources */,
+				3DB4D091251569CB00DA8E5B /* Stevia+Operators.swift in Sources */,
 				99CF6D23201B71DC00487F77 /* YPLibrary+LibraryChange.swift in Sources */,
 				99C6D6C51F1FB5C100711DB2 /* YPFilterCollectionViewCell.swift in Sources */,
 				990FD295201B3E59002A39A1 /* YPDragDirection.swift in Sources */,
 				99278DAE205140F60059532E /* YPPermissionDeniedPopup.swift in Sources */,
+				3DB4D097251569CB00DA8E5B /* Stevia+Style.swift in Sources */,
 				99CF6D21201B70A000487F77 /* YPLibraryVC+CollectionView.swift in Sources */,
+				3DB4D098251569CB00DA8E5B /* Stevia+Constraints.swift in Sources */,
 				99CF6D1B201B6A5C00487F77 /* UICollectionView+Extensions.swift in Sources */,
 				99C6D6C11F1FB5C100711DB2 /* YPAssetViewContainer.swift in Sources */,
 				EB473E17208E192800D16105 /* URL+Extensions.swift in Sources */,
+				3DB4D08F251569CB00DA8E5B /* Stevia+LayoutAnchors.swift in Sources */,
 				EB473E2B208E1ECB00D16105 /* AVCaptureDevice+Extensions.swift in Sources */,
 				99A3C91020319227008D7E23 /* YPCropView.swift in Sources */,
 				99C6D6D11F1FB5C100711DB2 /* YPImagePicker.swift in Sources */,
@@ -636,6 +705,7 @@
 				99C6D6BB1F1FB5C100711DB2 /* YPLibraryVC.swift in Sources */,
 				99C6D6CB1F1FB5C100711DB2 /* YPHelper.swift in Sources */,
 				EB5B07C4209146F00099C1FA /* UIButton+Extensions.swift in Sources */,
+				3DB4D095251569CB00DA8E5B /* Stevia+Center.swift in Sources */,
 				EB65C4B5209321420037858B /* String+Extensions.swift in Sources */,
 				99019E532018CE19007325C2 /* YPPickerScreen.swift in Sources */,
 				99CF6D1F201B6B9E00487F77 /* CGRect+Extensions.swift in Sources */,
@@ -644,32 +714,40 @@
 				EB473E1D208E1B9E00D16105 /* AVAsset+Extensions.swift in Sources */,
 				9911FA24203C3A31000E9B06 /* UIImage+Extensions.swift in Sources */,
 				99278DAC20512C330059532E /* YPPhotoCapture.swift in Sources */,
+				3DB4D092251569CB00DA8E5B /* Stevia+Size.swift in Sources */,
 				EB584BFF207B883A00265B38 /* YPSelectionsGalleryCell.swift in Sources */,
 				99278DB02051816F0059532E /* YPPhotoCaptureDefaults.swift in Sources */,
 				99C6D6CE1F1FB5C100711DB2 /* YPPhotoSaver.swift in Sources */,
 				99C6D6C31F1FB5C100711DB2 /* YPCameraView.swift in Sources */,
 				99019E562018D008007325C2 /* YPMenuItem.swift in Sources */,
+				3DB4D099251569CB00DA8E5B /* Stevia+Stacks.swift in Sources */,
 				AA69BCF222E601D100FBB925 /* YPDeviceOrientationHelper.swift in Sources */,
+				3DB4D096251569CB00DA8E5B /* Stevia+Notifications.swift in Sources */,
 				9915D9D32087E692003FC307 /* YPLibrarySelection.swift in Sources */,
 				EB1AB2EA20AC1DED00BFA79F /* CGFloat+Extensions.swift in Sources */,
+				3DB4D09D251569CB00DA8E5B /* Stevia+FlexibleMargin.swift in Sources */,
 				99C6D6C21F1FB5C100711DB2 /* YPCameraVC.swift in Sources */,
 				990FD299201B67FE002A39A1 /* PHFetchResult+Extensions.swift in Sources */,
 				EB473E1B208E1B7400D16105 /* NSFileManager+Extensions.swift in Sources */,
 				99A0529A1F20A19B005600B3 /* YPAlbumVC.swift in Sources */,
 				99A0529D1F20B45D005600B3 /* YPAlbumView.swift in Sources */,
 				EB473E21208E1BF400D16105 /* YPTrimError.swift in Sources */,
+				3DB4D0A1251569CB00DA8E5B /* Stevia+Position.swift in Sources */,
 				EB584C03207B990200265B38 /* AVFoundation+Extensions.swift in Sources */,
 				99C6D6BF1F1FB5C100711DB2 /* YPGridView.swift in Sources */,
 				99C6D6D01F1FB5C100711DB2 /* YPVideoCaptureVC.swift in Sources */,
+				3DB4D09E251569CB00DA8E5B /* Stevia+Content.swift in Sources */,
 				99A052A31F20B4CA005600B3 /* YPAlbumsManager.swift in Sources */,
 				EB473E25208E1DCA00D16105 /* AVCaptureSession+Extensions.swift in Sources */,
 				EBB0FF7A20877A7500C84E25 /* YPVideoView.swift in Sources */,
+				3DB4D09F251569CB00DA8E5B /* Stevia+Fill.swift in Sources */,
 				EB473E19208E198E00D16105 /* AVFileType+Extensions.swift in Sources */,
 				EBD66105208104EA00EA276E /* YPIcons.swift in Sources */,
 				EB473E1F208E1BCC00D16105 /* AVMutableComposition+Extensions.swift in Sources */,
 				99472DED2056E33700419F9E /* YPWordings.swift in Sources */,
 				99A0529F1F20B480005600B3 /* YPAlbumCell.swift in Sources */,
 				99C6D6BC1F1FB5C100711DB2 /* YPLibraryView.swift in Sources */,
+				3DB4D0A0251569CB00DA8E5B /* Stevia+DoubleDash.swift in Sources */,
 				99A3C91220319231008D7E23 /* YPCropVC.swift in Sources */,
 				EB584BFB207B870F00265B38 /* YPSelectionsGalleryVC.swift in Sources */,
 				99019E512018CDED007325C2 /* YPImageSize.swift in Sources */,
@@ -681,8 +759,10 @@
 				99CD962720D179FD009F5084 /* YPSelectionsGalleryView.swift in Sources */,
 				99C6D6BE1F1FB5C100711DB2 /* YPLibraryViewCell.swift in Sources */,
 				99C6D6C41F1FB5C100711DB2 /* YPFilter.swift in Sources */,
+				3DB4D094251569CB00DA8E5B /* Stevia+Baselines.swift in Sources */,
 				99C6D6C91F1FB5C100711DB2 /* YPBottomPager.swift in Sources */,
 				99CF6D2B201CB96700487F77 /* YPVideoCaptureHelper.swift in Sources */,
+				3DB4D093251569CB00DA8E5B /* Stevia+Alignment.swift in Sources */,
 				99019E4E2018CD31007325C2 /* YPPagerMenu.swift in Sources */,
 				99C6D6C01F1FB5C100711DB2 /* YPAssetZoomableView.swift in Sources */,
 				EB867BCF209134F100332A54 /* UIColor+Extensions.swift in Sources */,
@@ -942,14 +1022,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3DDD233325152FBC00C6B414 /* XCRemoteSwiftPackageReference "Stevia" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/freshOS/Stevia.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.7.3;
-			};
-		};
 		3DDD233725152FE000C6B414 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/HHK1/PryntTrimmerView.git";
@@ -961,11 +1033,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3DDD233425152FBC00C6B414 /* Stevia */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3DDD233325152FBC00C6B414 /* XCRemoteSwiftPackageReference "Stevia" */;
-			productName = Stevia;
-		};
 		3DDD233825152FE000C6B414 /* PryntTrimmerView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DDD233725152FE000C6B414 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */;
